@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
